@@ -25,6 +25,7 @@
 
 # Checklist
 
+- [ ] Self-review done
 - [ ] Test cases for changes added
 - [ ] Passed all test cases (coverage >= 50%)
 - [ ] Code meets coding standards

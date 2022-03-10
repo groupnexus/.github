@@ -11,3 +11,9 @@ line_length = 120
 multi_line_output = 3
 profile = "black"
 use_parentheses = true
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.messages_control]
+disable = "W1309" # disable logging-fstring-interpolation
