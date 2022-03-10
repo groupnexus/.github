@@ -1,0 +1,19 @@
+[tool.black]
+line_length = 120
+target-version = ['py37']
+
+[tool.isort]
+balanced_wrapping = true
+combine_as_imports = true
+combine_star = true
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 3
+profile = "black"
+use_parentheses = true
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.messages_control]
+disable = "W1309" # disable logging-fstring-interpolation
