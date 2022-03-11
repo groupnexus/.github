@@ -12,7 +12,7 @@ else
 fi
 
 # Install requirements
-REQUIREMENTS_DEV="$(pwd)/reqs/dev.txt"
+REQUIREMENTS_DEV="$(pwd)/requirements_dev.txt"
 REQUIREMENTS="$(pwd)/requirements.txt"
 
 if test -f "$REQUIREMENTS_DEV";
