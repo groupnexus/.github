@@ -17,3 +17,6 @@ max-line-length = 120
 
 [tool.pylint.messages_control]
 disable = "W1203" # disable logging-fstring-interpolation
+
+[tool.pylint.master]
+init-hook='import sys; sys.path.append("./")'
