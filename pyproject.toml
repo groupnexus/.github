@@ -11,6 +11,7 @@ line_length = 120
 multi_line_output = 3
 profile = "black"
 use_parentheses = true
+float_to_top=true
 
 [tool.pylint.format]
 max-line-length = 120
