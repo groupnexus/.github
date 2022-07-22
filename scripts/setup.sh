@@ -14,6 +14,7 @@ fi
 # Install requirements
 REQUIREMENTS_DEV="$(pwd)/requirements_dev.txt"
 REQUIREMENTS="$(pwd)/requirements.txt"
+PIPFILE="$(pwd)/Pipfile"
 
 if test -f "$REQUIREMENTS_DEV";
     then
@@ -24,8 +25,15 @@ elif test -f "$REQUIREMENTS";
     then
     echo "Installing requirements.txt"
     pip install -r "$REQUIREMENTS"
+
+elif test -f "$PIPFILE";
+    then
+    echo "requirements and requirements_dev.txt not exists! Installing using pipenv."
+    pip install pipenv
+    pipenv install --dev
+
 else
-    echo "requirements and requirements_dev.txt not exists!"
+    echo "Pipfile not found"  
 fi
 
 # Python packages for pylint to work
