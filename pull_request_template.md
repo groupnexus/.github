@@ -31,3 +31,4 @@
 - [ ] Code meets coding standards
 - [ ] Code is properly documented
 - [ ] Readme file is updated
+- [ ] Metadata is added
