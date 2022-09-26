@@ -27,7 +27,7 @@
 
 - [ ] Self-review done
 - [ ] Test cases for changes added
-- [ ] Passed all test cases (coverage >= 50%)
+- [ ] Passed all test cases (coverage >= 90%)
 - [ ] Code meets coding standards
 - [ ] Code is properly documented
 - [ ] Readme file is updated
