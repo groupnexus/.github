@@ -32,3 +32,4 @@
 - [ ] Code is properly documented
 - [ ] Readme file is updated
 - [ ] Metadata is added
+- [ ] Architecture diagram is updated
