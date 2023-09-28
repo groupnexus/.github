@@ -12,6 +12,8 @@
 ]-->
 
 ### Deployment Steps
+- [ ] NPI ticket created if required (Add link here)
+- [ ] NPI ticket shared with DevOps Team 
 
 <!--[
   Are there any deployment steps that need to be executed/documented?
@@ -33,3 +35,4 @@
 - [ ] Readme file is updated
 - [ ] Metadata is added
 - [ ] Architecture diagram is updated
+- [ ] Firestore indexes are created if rquired (Add PR link here)
